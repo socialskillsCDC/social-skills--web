@@ -1,21 +1,23 @@
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import Vue from 'vue'
-import App from './App'
-import router from './router'
-import firebase from 'firebase'
+import Vue from 'vue/dist/vue.js';
+import App from "./App.vue";
+import router from "./router";
+import Argon from "./plugins/argon-kit";
+import firebase from 'firebase';
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+Vue.use(Argon);
+
 
 let app;
 let config = {
-  apiKey: "",
+  apiKey: "AIzaSyCSc2J_YB6fT6qrdkwmcsjo9fJF8aYTcEQ",
   authDomain: "sociaskills.firebaseapp.com",
   databaseURL: "https://sociaskills.firebaseio.com",
   projectId: "sociaskills",
   storageBucket: "sociaskills.appspot.com",
   messagingSenderId: "586033119397"
 };
+
 
 firebase.initializeApp(config)
 firebase.auth().onAuthStateChanged(function(user) {
