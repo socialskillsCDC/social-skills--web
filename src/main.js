@@ -10,7 +10,7 @@ Vue.use(Argon);
 
 let app;
 let config = {
-  apiKey: "AIzaSyCSc2J_YB6fT6qrdkwmcsjo9fJF8aYTcEQ",
+  apiKey: "",
   authDomain: "sociaskills.firebaseapp.com",
   databaseURL: "https://sociaskills.firebaseio.com",
   projectId: "sociaskills",
