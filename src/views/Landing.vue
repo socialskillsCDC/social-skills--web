@@ -11,12 +11,9 @@
                     <div class="col px-0">
                         <div class="row">
                             <div class="col-lg-6">
-                                <h1 class="display-3  text-white">A beautiful Design System
-                                    <span>completed with examples</span>
+                                <h1 class="display-3  text-white">socialSkills
                                 </h1>
-                                <p class="lead  text-white">The design system comes with four pre-built pages to help
-                                    you get started faster. You can change the text and images and you're good to
-                                    go.</p>
+                                <p class="lead  text-white">socialSkills hilft Organisationen, Personen zu finden, welche sich mit ihrer Zeit und Know-How ehrenamtlich engagieren möchten.</p>
                                 <div class="btn-wrapper">
                                     <base-button tag="a"
                                                  href=""
@@ -47,37 +44,34 @@
                         <div class="row row-grid">
                             <div class="col-lg-4">
                                 <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-check-bold" type="primary" rounded class="mb-4">
+                                    <icon name="fa fa-dollar" type="primary" rounded class="mb-4">
                                     </icon>
-                                    <h6 class="text-primary text-uppercase">Feature1</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4
-                                        that includes the most important components and features.</p>
+                                    <h6 class="text-primary text-uppercase">Kostenlos</h6>
+                                    <p class="description mt-3">Die Registrierung und Vermittlung bei socialSKILLS sind zu 100% kostenfrei.</p>
                                     <base-button tag="a" href="#" type="primary" class="mt-4">
-                                        Learn more
+                                        Erfahre mehr
                                     </base-button>
                                 </card>
                             </div>
                             <div class="col-lg-4">
                                 <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-istanbul" type="success" rounded class="mb-4">
+                                    <icon name="fa fa-compress" type="warning" rounded class="mb-4">
                                     </icon>
-                                    <h6 class="text-success text-uppercase">Feature2</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
-                                        4 that includes the most important components and features.</p>
-                                    <base-button tag="a" href="#" type="success" class="mt-4">
-                                        Learn more
-                                    </base-button>
-                                </card>
-                            </div>
-                            <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-planet" type="warning" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-warning text-uppercase">Feature3</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
-                                        4 that includes the most important components and features.</p>
+                                    <h6 class="text-warning text-uppercase">Matching</h6>
+                                    <p class="description mt-3">Über unsere Webseite werden dir als Helfer automatisch Vorschläge für Projekte gemacht. Immer passend zu deinen Präferenzen und Möglichkeiten!</p>
                                     <base-button tag="a" href="#" type="warning" class="mt-4">
-                                        Learn more
+                                        Erfahre mehr
+                                    </base-button>
+                                </card>
+                            </div>
+                            <div class="col-lg-4">
+                                <card class="border-0" hover shadow body-classes="py-5">
+                                    <icon name="fa fa-child" type="success" rounded class="mb-4">
+                                    </icon>
+                                    <h6 class="text-success text-uppercase">Unkompliziert</h6>
+                                    <p class="description mt-3">In weniger als einer Minute bist du registriert und kannst aus einer Liste mit ehrenamtlichen Organisationen und Helfern den für dich richtigen Match finden.</p>
+                                    <base-button tag="a" href="#" type="success" class="mt-4">
+                                        Erfahre mehr
                                     </base-button>
                                 </card>
                             </div>
@@ -91,33 +85,26 @@
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6">
                         <div class="card bg-default shadow border-0">
-                            <img v-lazy="'img/theme/img-1-1200x1000.jpg'" class="card-img-top">
+                            <img v-lazy="'img/theme/angestöpselt.jpg'" class="card-img-top">
                             <blockquote class="card-blockquote">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                                      class="svg-bg">
                                     <polygon points="0,52 583,95 0,95" class="fill-default"></polygon>
                                     <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default"></polygon>
                                 </svg>
-                                <h4 class="display-3 font-weight-bold text-white">XXX</h4>
-                                <p class="lead text-italic text-white">The Arctic Ocean freezes every winter and much of
-                                    the sea-ice then thaws every summer, and that process will continue whatever
-                                    happens.</p>
+                                <h4 class="display-3 font-weight-bold text-white">Angestöpselt e.V.</h4>
+                                <p class="lead text-italic text-white">Angestöpselt verschenkt Computer an Menschen, die sich keine Computer leisten können und ermöglicht so den Zugang zur digitalen Welt.</p>
                             </blockquote>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="pl-md-5">
-                            <icon name="ni ni-settings" class="mb-5" size="lg" type="warning" shadow rounded></icon>
+                            <icon name="fa fa-trophy" class="mb-5" size="lg" type="warning" shadow rounded></icon>
 
-                            <h3>Wie xxx durch socialSkills profitiert</h3>
-                            <p class="lead">Don't let your uses guess by attaching tooltips and popoves to any element.
-                                Just make sure you enable them first via JavaScript.</p>
-                            <p>The kit comes with three pre-built pages to help you get started faster. You can change
-                                the text and images and you're good to go.</p>
-                            <p>The kit comes with three pre-built pages to help you get started faster. You can change
-                                the text and images and you're good to go.</p>
-                            <a href="#" class="font-weight-bold text-warning mt-5">A beautiful UI Kit for impactful
-                                websites</a>
+                            <h3>Wie angestöpselt durch socialSkills profitiert</h3>
+                            <p class="lead">Durch die Vermittlung von Ehrenamtlichen Helfern durch socialSkills konnte noch mehr Menschen der Zugang zur digitalen Welt ermöglicht werden.</p>
+                            <p>Angestöpselt nutzt socialSkills um mehr ehrenamtliche Helfer auf das Projekt aufmerksam zu machen. Mit der socialSkills Plattform können einfach Events erstellt und geteilt werden, dadurch werden auch Menschen erreicht, die noch keinem festen Ehrenamt nachgehen.</p>
+                            <a href="#" class="font-weight-bold text-warning mt-5">Registriere noch heute deine Initiative auf socialSkills</a>
                         </div>
                     </div>
                 </div>
@@ -210,28 +197,25 @@
             <div class="container pt-lg pb-300">
                 <div class="row text-center justify-content-center">
                     <div class="col-lg-10">
-                        <h2 class="display-3 text-white">startSocial</h2>
-                        <p class="lead text-white">StartSocial möchte ...</p>
+                        <h2 class="display-3 text-white">socialSkills</h2>
+                        <p class="lead text-white">Ehrenamtliche Organisationen helfen sowohl uns, als auch den Menschen um uns herum Tag für Tag ihre Probleme zu überwinden und Ziele zu erreichen. Als socialSKILLS erleichtern wir es diesen Organisationen, Personen zu finden, welche sich mit ihrer Zeit und Know-How ehrenamtlich engagieren wollen.</p>
                     </div>
                 </div>
                 <div class="row row-grid mt-5">
                     <div class="col-lg-4">
-                        <icon name="ni ni-settings" size="lg" gradient="white" shadow round color="primary"></icon>
-                        <h5 class="text-white mt-3">Ziel1</h5>
-                        <p class="text-white mt-3">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
+                        <icon name="fa fa-users" size="lg" gradient="white" shadow round color="primary"></icon>
+                        <h5 class="text-white mt-3">Menschen verbinden</h5>
+                        <p class="text-white mt-3">Der Kerngedanke hinter socialSKILLS ist es, Zeit und Know-How der Menschen mit ehrenamtlichen Organisationen zu verbinden.</p>
                     </div>
                     <div class="col-lg-4">
                         <icon name="ni ni-ruler-pencil" size="lg" gradient="white" shadow round color="primary"></icon>
-                        <h5 class="text-white mt-3">Ziel2</h5>
-                        <p class="text-white mt-3">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
+                        <h5 class="text-white mt-3">Potenziale nutzen</h5>
+                        <p class="text-white mt-3">Jeder hat seine ganz individuellen Stärken. Auf socialSKILLS wird jedes Potenzial geschätzt und bestmöglich an Organisationen vermittelt.</p>
                     </div>
                     <div class="col-lg-4">
-                        <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary"></icon>
-                        <h5 class="text-white mt-3">Ziel3</h5>
-                        <p class="text-white mt-3">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
+                        <icon name="fa fa-search" size="lg" gradient="white" shadow round color="primary"></icon>
+                        <h5 class="text-white mt-3">Transparenz</h5>
+                        <p class="text-white mt-3">Jedes Projekt kann öffentlich eingesehen werden, um ein Maximum an Transparenz zu ermöglichen. Von der Idee bis zur Fertigstellung wird der Status kontinuierlich aktualisiert.</p>
                     </div>
                 </div>
             </div>
