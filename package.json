@@ -12,11 +12,12 @@
     "firebase": "^5.4.2",
     "flatpickr": "^4.5.1",
     "nouislider": "^11.1.0",
-    "vue": "^2.5.16",
+    "vue": "^2.5.17",
     "vue-flatpickr-component": "^7.0.4",
     "vue-lazyload": "^1.2.6",
     "vue-router": "^3.0.1",
-    "vue2-transitions": "^0.2.3"
+    "vue2-transitions": "^0.2.3",
+    "vuefire": "^1.4.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-rc.10",

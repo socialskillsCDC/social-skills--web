@@ -6,7 +6,7 @@ import Components from "./views/Components.vue";
 import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
-import Profile from "./views/Profile.vue";
+import Eventform from "./views/Eventform.vue";
 import firebase from 'firebase'
 
 
@@ -52,11 +52,11 @@ let router = new Router({
       }
     },
     {
-      path: "/profile",
-      name: "profile",
+      path: "/eventform",
+      name: "eventform",
       components: {
         header: AppHeader,
-        default: Profile,
+        default: Eventform,
         footer: AppFooter
       },
       meta: {
