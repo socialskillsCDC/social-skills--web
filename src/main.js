@@ -4,17 +4,20 @@ import router from "./router";
 import Argon from "./plugins/argon-kit";
 import firebase from 'firebase'; 
 import Vuefire from 'vuefire';
-import {apiConfig} from "../localConfig";
 
 Vue.config.productionTip = false;
 Vue.use(Argon);
 Vue.use(Vuefire);
 
 let app;
-let config;
-if (Vue.config.productionTip == false){
-  config = apiConfig;
-}
+let config = {
+  apiKey: process.env.VUE_APP_API_KEY,
+  authDomain: process.env.VUE_APP_AUTH_DOMAIN,
+  databaseURL: process.env.VUE_APP_DATABASE_URL,
+  projectId: process.env.VUE_APP_PROJECT_ID,
+  storageBucket: process.env.VUE_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.VUE_APP_MESSAGING_SENDER_ID
+};
 
 
 firebase.initializeApp(config)
