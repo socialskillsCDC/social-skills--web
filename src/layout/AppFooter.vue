@@ -22,7 +22,7 @@
                                class="nav-link" target="_blank">Github</a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+                            <a href="https://github.com/socialskillsCDC/social-skills--web/blob/master/LICENSE.md"
                                class="nav-link" target="_blank">MIT License</a>
                         </li>
                     </ul>
