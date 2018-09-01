@@ -1,7 +1,7 @@
 # socialSkills Web 
 
 This is the website code from the socialSkills project.
-##German description:
+## German description:
 Ehrenamtliche Organisationen helfen sowohl uns, als auch den Menschen um uns herum Tag für Tag ihre Probleme zu überwinden und Ziele zu erreichen. Als socialSKILLS erleichtern wir es diesen Organisationen, Personen zu finden, welche sich mit ihrer Zeit und Know-How ehrenamtlich engagieren wollen. Durch nationale und internationale Sponsoren können wir jeden unserer Helfer finanziell dabei unterstützen, einen Beitrag für unsere Gesellschaft zu leisten. Für die bei uns eingetragenen Organisationen bleibt jedes Projekt weiterhin komplett kostenlos.
 
 ## Getting Started
