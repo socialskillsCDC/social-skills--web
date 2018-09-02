@@ -20,7 +20,7 @@ let config = {
 };
 
 
-firebase.initializeApp(config)
+firebase.initializeApp(config); 
 firebase.auth().onAuthStateChanged(function(user) {
   if (!app) {
     /* eslint-disable no-new */
@@ -33,3 +33,6 @@ firebase.auth().onAuthStateChanged(function(user) {
     })
   }
 });
+
+
+

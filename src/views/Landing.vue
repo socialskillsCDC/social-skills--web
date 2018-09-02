@@ -116,40 +116,39 @@
                   <div class="col-lg-6">
                       <div class="d-flex px-3">
                           <div>
-                              <icon name="ni ni-building" size="lg" class="bg-gradient-white" color="primary" shadow
+                              <icon name="fa fa-building" size="lg" class="bg-gradient-white" color="primary" shadow
                                     rounded></icon>
                           </div>
                           <div class="pl-4">
                               <h4 class="display-3">Jetzt Aufgaben übernehmen</h4>
-                              <p>The Arctic Ocean freezes every winter and much of the sea-ice then
-                                  thaws every summer, and that process will continue whatever happens.</p>
+                              <p></p>
                           </div>
                       </div>
                       <card shadow class="shadow-lg--hover mt-5">
                           <div class="d-flex px-3">
                               <div>
-                                  <icon name="ni ni-satisfied" gradient="success" color="white" shadow
+                                  <icon name="fa fa-building" gradient="warning" color="white" shadow
                                         rounded></icon>
                               </div>
                               <div class="pl-4">
-                                  <h5 class="title text-success">Awesome Support</h5>
+                                  <h5 class="title text-warning">Mitarbeit bei der Tafel</h5>
                                   <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
                                       every summer, and that process will continue whatever happens.</p>
-                                  <a href="#" class="text-success">Learn more</a>
+                                  <a href="#" class="text-warning">Jetzt Aufgabe übernehmen</a>
                               </div>
                           </div>
                       </card>
                       <card shadow class="shadow-lg--hover mt-5">
                           <div class="d-flex px-3">
                               <div>
-                                  <icon name="ni ni-active-40" gradient="warning" color="white" shadow
+                                  <icon name="fa fa-building" gradient="success" color="white" shadow
                                         rounded></icon>
                               </div>
                               <div class="pl-4">
-                                  <h5 class="title text-warning">Modular Components</h5>
+                                  <h5 class="title text-success">wöchentliche ehrenamtliche Mitarbeit bei Angestöpselt</h5>
                                   <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
                                       every summer, and that process will continue whatever happens.</p>
-                                  <a href="#" class="text-warning">Learn more</a>
+                                  <a href="#" class="text-success">Jetzt Aufgabe übernehmen</a>
                               </div>
                           </div>
                       </card>
@@ -158,28 +157,28 @@
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
-                                    <icon name="ni ni-satisfied" gradient="success" color="white" shadow
+                                    <icon name="fa fa-building" gradient="success" color="white" shadow
                                           rounded></icon>
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-success">Jetzt Aufgaben übernehmen</h5>
                                     <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
                                         every summer, and that process will continue whatever happens.</p>
-                                    <a href="#" class="text-success">Ausgabe übernehmen!</a>
+                                    <a href="#" class="text-success">Jetzt Aufgabe übernehmen</a>
                                 </div>
                             </div>
                         </card>
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
-                                    <icon name="ni ni-active-40" gradient="warning" color="white" shadow
+                                    <icon name="fa fa-building" gradient="warning" color="white" shadow
                                           rounded></icon>
                                 </div>
                                 <div class="pl-4">
-                                    <h5 class="title text-warning">Modular Components</h5>
+                                    <h5 class="title text-warning">Jetzt Aufgabe übernehmen</h5>
                                     <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
                                         every summer, and that process will continue whatever happens.</p>
-                                    <a href="#" class="text-warning">Learn more</a>
+                                    <a href="#" class="text-warning">Jetzt Aufgabe übernehmen</a>
                                 </div>
                             </div>
                         </card>
@@ -255,6 +254,10 @@
 <script>
 import firebase from 'firebase';
 export default {
+    data () {
+    return {
+    }
+    },
   methods: {
     logout: function() {
       console.log("knopf");
